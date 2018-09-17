@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		192E427F2146E3AB00E4838A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192E427E2146E3AB00E4838A /* main.swift */; };
+		192E429F21482EB400E4838A /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192E429E21482EB400E4838A /* Game.swift */; };
+		192E42A221482F4C00E4838A /* menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192E42A121482F4C00E4838A /* menu.swift */; };
+		19C154D1214AD2BE00850B69 /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C154D0214AD2BE00850B69 /* Library.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		192E427B2146E3AB00E4838A /* VideoGameLibrary */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = VideoGameLibrary; sourceTree = BUILT_PRODUCTS_DIR; };
 		192E427E2146E3AB00E4838A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		192E429E21482EB400E4838A /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		192E42A121482F4C00E4838A /* menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menu.swift; sourceTree = "<group>"; };
+		19C154D0214AD2BE00850B69 /* Library.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				192E427E2146E3AB00E4838A /* main.swift */,
+				192E429E21482EB400E4838A /* Game.swift */,
+				192E42A121482F4C00E4838A /* menu.swift */,
+				19C154D0214AD2BE00850B69 /* Library.swift */,
 			);
 			path = VideoGameLibrary;
 			sourceTree = "<group>";
@@ -120,6 +129,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				192E427F2146E3AB00E4838A /* main.swift in Sources */,
+				19C154D1214AD2BE00850B69 /* Library.swift in Sources */,
+				192E429F21482EB400E4838A /* Game.swift in Sources */,
+				192E42A221482F4C00E4838A /* menu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
